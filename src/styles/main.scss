@@ -1,0 +1,63 @@
+.rightPanel {
+  flex-grow: 1;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .navBarBlock {
+    display: flex;
+    justify-content: space-between;
+    .wrapperBlock {
+      display: flex;
+      font-size: 14px;
+      font-weight: 500;
+      .wrapper {
+        padding: 5px 5px;
+        &:hover {
+          background-color: black;
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+    .icon {
+      font-size: 14px;
+    }
+  }
+
+  .cardBlock {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .card {
+      border: 1px solid gray;
+      border-radius: 10px;
+      min-width: 190px;
+      line-height: 0.1;
+      padding: 10px 10px;
+      margin-top: 60px;
+
+      .header {
+        font-size: 14px;
+        color: gray;
+        font-weight: 600;
+      }
+      .description {
+        font-size: 10px;
+        color: gray;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .catalogBlock {
+    .header {
+      font-size: 24px;
+      font-weight: 800;
+    }
+    .cardBlock {
+      display: flex;
+      max-width: 700px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.leftPanel {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navHeaderBlock {
+  margin-bottom: 160px;
+  .headerOne {
+    color: black;
+  }
+  .headerTwo {
+    color: gray;
+  }
+}
+
+.navBlock {
+  font-size: 16px;
+  color: rgb(27, 131, 229);
+  font-weight: bold;
+}
+
+.footerLogo {
+  font-size: 14px;
+  font-weight: bold;
+}

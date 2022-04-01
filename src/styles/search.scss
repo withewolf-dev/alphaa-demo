@@ -1,0 +1,21 @@
+.searchBlock {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  width: 50%;
+  border-radius: 20px;
+  padding: 10px 10px;
+  justify-content: space-between;
+  .input {
+    border: 0;
+    outline: none;
+    color: gray;
+    font-size: 14px;
+    width: 50%;
+  }
+  .icon {
+    height: 20px;
+    width: 20px;
+    color: gray;
+  }
+}
